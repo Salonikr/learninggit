@@ -1,34 +1,40 @@
-create Folder after installing git --> right click and the option will come Git this folder
-Git bash will open
-type git init to create the folder as repository
+comment :create Folder after installing git --> right click and the option will come Git this folder
+comment :Git bash will open
+git init //to create the folder as repository
 
-git config --global user.name 'Saloni Kr'
-git config --global user.email 'Saloni.Kr@gmail.com'
+git config --global user.name 'Saloni Kr'  // save name
+git config --global user.email 'Saloni.Kr@gmail.com' // email ID
 
 
-Add file in the repository
+comment :Add file in the repository
 git add index.html
 git status  // will give index.html tracked (in the staging)
 
 
 
-Remove File
+comment :Remove File
 git rm --cached index.html
 git status  // will give index.html untracked
 
-Add all the html files in the folder
+comment :Add all the html files in the folder
 git add *.html 
 git status  // will give index.html tracked
 
-add all the files
+comment :add all the files
 git add .
 git status  // will give all the files in the folder tracked (in the staging)
 
 
-make changes in the file info.txt
+comment :make changes in the file info.txt
 git status // modified file info.txt
 
 git add .
-git status
+git status // all files in staging area
+
+comment :commit the files
+git commit // will open a file
+I //to insert a comment
+hit esc button and type:wq to save and close // to save the file
+
 
 
