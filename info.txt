@@ -1,0 +1,34 @@
+create Folder after installing git --> right click and the option will come Git this folder
+Git bash will open
+type git init to create the folder as repository
+
+git config --global user.name 'Saloni Kr'
+git config --global user.email 'Saloni.Kr@gmail.com'
+
+
+Add file in the repository
+git add index.html
+git status  // will give index.html tracked (in the staging)
+
+
+
+Remove File
+git rm --cached index.html
+git status  // will give index.html untracked
+
+Add all the html files in the folder
+git add *.html 
+git status  // will give index.html tracked
+
+add all the files
+git add .
+git status  // will give all the files in the folder tracked (in the staging)
+
+
+make changes in the file info.txt
+git status // modified file info.txt
+
+git add .
+git status
+
+
