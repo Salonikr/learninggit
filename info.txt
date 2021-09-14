@@ -52,8 +52,14 @@ git status  // you will see abs.txt not move dto staging
 comment :create two folders dir1 & dir2 and create atleast one file in each
 comment : add /dir1 in the .gitignore folder
 git add .  // add all the files
-git status  // you will see abs.txt not move dto staging 
+git status  // you will see dir1 is not moved to the staging
 
+
+comment : add *.txt in the .gitignore folder, will ignore all txt files
+
+
+comment :Create a branch .. above were all in master branch
+git 
 
 
 
