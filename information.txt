@@ -40,34 +40,8 @@ hit esc button and type:wq to save and close // to save the file
 git commit -m 'comment go here and no files will come up where we need to inserta and add comments'
 
 
-comment :create a folder gitignore that will have a list of files that wont be included in git
-touch .gitignore  // file created
-touch abs.txt // another file write soemthing , add this file name into .gitignore
-
-git add .  // add all the files
-git status  // you will see abs.txt not move dto staging
-
-
-
-comment :create two folders dir1 & dir2 and create atleast one file in each
-comment : add /dir1 in the .gitignore folder
-git add .  // add all the files
-git status  // you will see dir1 is not moved to the staging
-
-
-comment : add *.txt in the .gitignore folder, will ignore all txt files
-
-
-comment :Create a branch .. above were all in master branch
-git branch mybranch  // branch created
-git checkout mybranch // will switch to the mybranch
-
-touch login.html  // create a file in the new branch 'mybranch'
-
-
-
-
-
+comment :create a folder gitignore that wont be included 
+touch .gitignore
 
 
 
